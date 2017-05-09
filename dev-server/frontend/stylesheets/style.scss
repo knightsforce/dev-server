@@ -1,0 +1,21 @@
+$baseColor: rgb(50,50,50);
+$firstColor: rgb(255,255,255);
+$secondColor: rgb(84,118,255);
+
+@mixin flexColumn() {
+	display: flex;
+	flex-direction: column;
+}
+
+@mixin flexLine() {
+	display: flex;
+	flex-direction: row;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: arial;
+	color: rgb(0,0,0);
+}
