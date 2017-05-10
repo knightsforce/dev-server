@@ -99,7 +99,7 @@ module.exports = {
 	    },*/
 	    {
 	    	test: /\.(png|jpg|svg|ttf|eot|woff|woff2)$/,
-			use: "file-loader?name=../[path][name].[ext]",
+			use: "file-loader?name=[path][name].[ext]",
 	    }
 	  ]
 	},
